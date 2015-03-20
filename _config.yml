@@ -31,6 +31,10 @@ prose:
         field:
           element: "hidden"
           value: "blog"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "tags"
         field:
           element: "multiselect"
@@ -41,10 +45,6 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-              - name: "published"
-              field:
-              element: "hidden"
-              value: "true"
     _posts/static:
       - name: "layout"
         field:
