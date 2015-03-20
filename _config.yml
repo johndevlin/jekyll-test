@@ -41,8 +41,6 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-      
-	
               - name: "published"
               field:
               element: "hidden"
